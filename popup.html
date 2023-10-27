@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Popup</title>
+    <link rel="stylesheet" type="text/css" href="../popup/popup.css" />
+  </head>
+  <body>
+    <p class="text" id="title">Linkedin Scraper</p>
+    <div class="container">
+      <div class="input-section">
+        <p class="text" id="addGoogleSheet">Google Sheet</p>
+        <button class="icon" id="addButton">+</button>
+      </div>
+      <input type="text" id="sheetName" class="hidden" />
+      <div class="values" id="valuesContainer"></div>
+    </div>
+    <button id="scrapeButton">Scrape H1 Tag</button>
+    <div id="h1Result"></div>
+    <script src="../popup/popup.js"></script>
+    <script src="popup.js"></script>
+    <script src="scrap.js"></script>
+  </body>
+</html>
